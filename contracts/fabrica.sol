@@ -10,8 +10,8 @@ contract Fabrica is ERC20, Ownable {
     // basic constructor, the token will have "fabrica" as name and "FAB" as symbol.
     // an initial supply of tokens will be created and sent to the deployer's address.
     // warning: if you want the initial supply to be 1 FAB token, you need to write (1* 10**18)
-    constructor(uint256 initialSupply) ERC20("fabrica", "FAB") Ownable() public { 
+    constructor(uint256 initialSupply) ERC20("Fabrica", "FAB") Ownable() public { 
         _mint(msg.sender, initialSupply);
     }
-    
+    // @author Create a logic for project
 }
